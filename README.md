@@ -12,7 +12,7 @@ git checkout -b my-tweak
 strapi dev // now live on https://localhost:1337/
 ```
 And you have a working copy locally. Create everything in Strapi GUI, commit changes, merge branch (PR or git merge).
-🚨**Please don't dev on master as it is the source of truth for Heroku deploy** 🚨
+🚨**Please don't dev on master as it is the source of truth for Heroku deploys** 🚨
 
 Then create an Heroku account, ask to be invited on the heroku project and : 
 ```
