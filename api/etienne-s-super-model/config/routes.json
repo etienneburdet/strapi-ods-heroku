@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/etienne-s-super-models",
+      "handler": "etienne-s-super-model.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/etienne-s-super-models/count",
+      "handler": "etienne-s-super-model.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/etienne-s-super-models/:id",
+      "handler": "etienne-s-super-model.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/etienne-s-super-models",
+      "handler": "etienne-s-super-model.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/etienne-s-super-models/:id",
+      "handler": "etienne-s-super-model.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/etienne-s-super-models/:id",
+      "handler": "etienne-s-super-model.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

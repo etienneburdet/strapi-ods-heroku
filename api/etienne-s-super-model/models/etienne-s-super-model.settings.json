@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "etienne_s_super_models",
+  "info": {
+    "name": "Etienne's super model"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Roman": {
+      "type": "richtext"
+    },
+    "articles": {
+      "collection": "article"
+    }
+  }
+}
